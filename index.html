@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+</head>
+
+  <body>
+    <div class="wrapper">
+      <div class="main">
+        <img id="main-logo" src="/images/logo.svg" alt="The main logo">
+        <img class="icon" src="/images/icon-document.svg" alt="A document icon" width="40px" height="40px">
+        <img class="icon" src="/images/icon-folder.svg" alt="A folder icon" width="40px" height="40px">
+        <img class="icon" src="/images/icon-upload.svg" alt="An upload icon" width="40px" height="40px">
+      </div>
+
+      <div class="lower">
+        <p>
+          You’ve used <span class="data-used"> 815 GB </span> of your storage
+        </p>
+        <div class="progress-bar">
+          <div class="progress">  
+            <div class="progress-dot"></div>   
+          </div>
+        </div>
+        <div class="bounds">
+          <span id="lower-bound">0 GB</span>
+          <span id="upper-bound">1000 GB</span>
+        </div> 
+      </div>
+
+      <div class="data-left">
+        <p><span class="data">185 </span> <span class="other-text">GB LEFT</span></p>
+      </div>
+    
+    </div>
+  </body>
+</html>
